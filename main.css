@@ -1,0 +1,198 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Nosifer', cursive;
+#5b5b5b - gray*/
+
+
+body {
+   color: #000
+}
+
+h1 {
+   font-family: 'Nosifer', cursive;
+   font-size: 70px;
+   color:#9e0f08;
+   text-align: center;
+}
+
+h2 {
+   font-family: 'Special Elite', cursive;
+   font-size: 30px;
+   color: #454547;
+   padding-left: 7px;
+}
+
+h3 {
+   font-family: 'Indie Flower', cursive;
+   font-size: 22px;
+   color: #5b5b5b;
+}
+
+p {
+   font-family: 'Zilla Slab', serif;
+   font-size: 18px;
+   line-height: 1.5
+}
+
+ol {
+   font-family: 'Zilla Slab', serif;
+   font-size: 20px;
+}
+
+ul {
+  font-family: 'Zilla Slab', serif;
+  font-size: 20px;
+}
+
+img {
+max-width: 100%;
+}
+
+img.right {
+   float: right;
+   clear: right;
+   margin-left: 15px;
+   margin-bottom: 5px;
+   padding-right: 10px;
+}
+
+img.left {
+   float: left;
+   clear: left;
+   margin-right: 15px;
+   margin-bottom: 5px;
+   padding-left: 10px;
+}
+
+img.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video.right {
+   float: right;
+   clear: right;
+   margin-left: 10px;
+   margin-bottom: 5px;
+   padding-right: 10px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+   background-color: #ffffff;
+   display: flex;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+   color: #000000;
+   flex-grow: 1;
+   text-align: center;
+   padding: 4px 6px;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: 'Indie Flower', cursive;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   color: #000;
+}
+
+.topnav a:active {
+   color: #8f8a89;
+}
+
+.underlined {
+   border-bottom: 1.5px solid #ffffff;
+ }
+ 
+ .underlined:hover {
+   border-bottom: 1.5px solid #000;
+ }
+
+a:link {
+    color: #bf3131;
+}
+
+a:visited {
+    color: #bf3131;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #04204c;
+}
+
+caption {
+   color: #ffffff;
+   text-align: center;
+   font-size: 16px;
+ }
+ 
+table {
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+thead {
+ font-weight: bold;
+ font-family: 'Zilla Slab', serif;
+ }
+ 
+tr {
+ color: #5b5b5b;
+ font-size: 14px;
+ font-family: 'Zilla Slab', serif;
+ }
+ 
+th {
+   color: #5b5b5b;
+   padding: 7px;
+   font-family: 'Zilla Slab', serif;
+ }
+ 
+td {
+   font-size: 16px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-family: 'Zilla Slab', serif;
+ }
+
+ td.center{
+   text-align: center;
+ }
+ 
+
+@media (max-width: 800px) {
+
+.topnav {
+   flex-wrap: wrap;
+}
+
+}
+
+
+
+@font-face {
+   font-family: 'serial_killersregular';
+   src: url('serial_killers-webfont.woff2') format('woff2'),
+        url('serial_killers-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'serial_killer';
+   src: url('serial_killer_lower-webfont.woff2') format('woff2'),
+        url('serial_killer_lower-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
